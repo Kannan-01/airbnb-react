@@ -1,0 +1,38 @@
+.navbar-toggler {
+    border: 0;
+  }
+  .navbar-toggler:focus {
+    border: 0;
+    box-shadow: none;
+  }
+  h3 {
+    color: rgb(255, 56, 92);
+  }
+  
+  .profile {
+    width: 45px;
+    height: 45px;
+    border-radius: 55px;
+  }
+  .profile img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+  }
+  
+  @media (max-width: 500px) {
+    .container-fluid {
+      padding: 0px 30px !important;
+    }
+    .host {
+      display: none;
+    }
+  }
+  
