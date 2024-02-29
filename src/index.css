@@ -1,6 +1,34 @@
-*
-{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Lexend", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+
+.form-control:focus {
+  box-shadow: none !important;
+  border: 1px solid rgb(253, 196, 207) !important;
+}
+
+::-webkit-scrollbar {
+  border-radius: 10px;
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 56, 92);
+  border-radius: 10px;
 }

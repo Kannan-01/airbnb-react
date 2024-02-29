@@ -1,0 +1,21 @@
+li {
+    font-size: 14px;
+  }
+  a {
+    color: rgb(34, 34, 34);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  footer a:hover {
+    text-decoration: underline !important;
+  }
+  .heads {
+    margin-top: 15px;
+  }
+  @media (max-width: 500px) {
+    .container-fluid {
+      padding: 0px 30px !important;
+      /* margin-bottom: 30px; */
+    }
+  }

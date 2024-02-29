@@ -1,0 +1,28 @@
+.breadcrumb-item > a {
+  color: black !important;
+  text-decoration: none;
+}
+.breadcrumb-item.active {
+  color: rgb(255, 56, 92) !important;
+}
+
+.nav-pills .nav-link.active {
+  color: rgb(255, 56, 92) !important;
+  background: none !important;
+}
+
+.nav-link{
+    color: black !important;
+    font-weight: 600 !important;
+}
+.profile {
+    width: 200px;
+    height: 200px;
+    border-radius: 55px;
+  }
+  .profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 55%;
+    object-fit: cover;
+  }
