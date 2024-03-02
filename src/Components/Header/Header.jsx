@@ -101,9 +101,11 @@ function Header() {
                   >
                     Sign <span className="text-danger">up</span>
                   </Nav.Link>
-                  <Nav.Link className="fw-bold">
-                    <Link className="link" to={"account"}>Account</Link>
-                  </Nav.Link>
+                  <Nav.Item>
+                    <Link className="nav-link fw-bold" to={"/account"}>
+                      Account
+                    </Link>
+                  </Nav.Item>
                 </Nav>
 
                 <Form className="d-flex justify-content-center align-items-center">

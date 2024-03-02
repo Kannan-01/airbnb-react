@@ -6,6 +6,7 @@ import Nav from "react-bootstrap/Nav";
 import Tab from "react-bootstrap/Tab";
 import { Link } from "react-router-dom";
 import "./Account.css";
+import Reservation from "../../Components/Reservations/Reservations";
 function Account() {
   return (
     <div className="mb-5">
@@ -30,6 +31,9 @@ function Account() {
                 </Nav.Item>
                 <Nav.Item>
                   <Nav.Link eventKey="second">Reservations</Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                  <Nav.Link eventKey="third">Hosted property</Nav.Link>
                 </Nav.Item>
               </Nav>
             </div>
@@ -151,13 +155,25 @@ function Account() {
                 </Tab.Pane>
 
                 <Tab.Pane eventKey="second">
-                  <Container className="p-5">
+                  <Container style={{minHeight:"30rem"}} className="p-5">
                     <h2 className="fw-bold">
                       <span className="text-danger">Your</span> reservations
                     </h2>
                     <hr />
+                    <Reservation/>
                   </Container>
                 </Tab.Pane>
+
+                
+                <Tab.Pane eventKey="third">
+                  <Container style={{minHeight:"30rem"}} className="p-5">
+                    <h2 className="fw-bold">
+                      <span className="text-danger">Currently</span> hosting
+                    </h2>
+                    <hr />
+                  </Container>
+                </Tab.Pane>
+
               </Tab.Content>
             </div>
           </div>

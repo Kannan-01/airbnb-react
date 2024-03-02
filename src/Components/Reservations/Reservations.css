@@ -1,0 +1,11 @@
+.accordion-button:not(.collapsed) {
+  color: var(--bs-accordion-active-color);
+  background-color: white !important;
+  box-shadow: none !important;
+}
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+p{
+    color: #212529bf;
+}
